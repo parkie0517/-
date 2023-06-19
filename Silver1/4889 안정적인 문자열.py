@@ -18,7 +18,7 @@ while(True):
             test.pop(idx+1)
             test.pop(idx)
             idx_last = len(test) - 1
-            idx = 0
+            idx = idx - 1 # Start searching for paris from the index behind
             if idx_last == -1:
                 break
         else:
